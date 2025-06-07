@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://variety.com/wp-content/uploads/2025/04/Screen-Shot-2025-04-29-at-9.16.44-AM-e1745943450197.png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#loadWifiBtn {
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#loadWifiBtn:hover {
+    background-color: #45a049;
+}
+
+#wifiList {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.wifi-item {
+    margin: 10px 0;
+    font-size: 18px;
+}
